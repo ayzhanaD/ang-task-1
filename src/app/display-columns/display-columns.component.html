@@ -1,0 +1,6 @@
+<div class="display">
+  <app-columns></app-columns>
+  <ul *ngFor="let car of cars" [ngStyle]="{'color': car.colorTxt}">
+    <li>{{car.carName}}</li>
+  </ul>
+</div>

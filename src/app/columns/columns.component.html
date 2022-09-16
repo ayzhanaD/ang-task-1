@@ -1,0 +1,20 @@
+<div class="wrapper">
+  <p>First Year</p>
+  <div class="columns firstYear">
+    <app-column [columnHeight]="bigHeight" [columnColor]="columnColorRed"></app-column>
+    <app-column [columnHeight]="bigHeight" [columnColor]="columnColorBlue"></app-column>
+    <app-column [columnHeight]="middleHeight" [columnColor]="columnColorViolet"></app-column>
+  </div>
+  <p>Second Year</p>
+  <div class="columns secondYear">
+    <app-column [columnHeight]="bigHeight" [columnColor]="columnColorRed"></app-column>
+    <app-column [columnHeight]="middleHeight" [columnColor]="columnColorBlue"></app-column>
+    <app-column [columnHeight]="smallHeight" [columnColor]="columnColorViolet"></app-column>
+  </div>
+  <p>Third Year</p>
+  <div class="columns thirdYear">
+    <app-column [columnHeight]="middleHeight" [columnColor]="columnColorRed"></app-column>
+    <app-column [columnHeight]="smallHeight" [columnColor]="columnColorBlue"></app-column>
+    <app-column [columnHeight]="smallHeight" [columnColor]="columnColorViolet"></app-column>
+  </div>
+</div>
